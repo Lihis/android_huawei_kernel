@@ -48,7 +48,8 @@ static inline int f2fs_acl_chmod(struct inode *inode)
 	return 0;
 }
 
-static inline int f2fs_init_acl(struct inode *inode, struct inode *dir)
+static inline int f2fs_init_acl(struct inode *inode, struct inode *dir,
+							struct page *page)
 {
 	return 0;
 }
